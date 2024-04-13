@@ -1,0 +1,19 @@
+nest generate - utilizado para criar as coisas no projeto
+
+controllers - administram as rotas da aplicação
+services - guardam regras de negócio
+
+decorator - ferramentas do nest usadas para definir e criar as coisas no projeto
+
+decorators:
+- @Get()
+- @Post()
+- @Param()
+- HttpCode() //altera código de response
+- @Res()
+- Patch()
+- Delete()
+
+singleton - apenas uma istância na aplicação inteira
+
++id - o mais serve para converter a string que vem da url em número para o id
