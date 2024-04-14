@@ -17,3 +17,7 @@ decorators:
 singleton - apenas uma istância na aplicação inteira
 
 +id - o mais serve para converter a string que vem da url em número para o id
+
+dto - data transfer object
+
+validation pipe - regras de validação
